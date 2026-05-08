@@ -1,0 +1,123 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="VWPR29sKGL37n3GRutbe">
+    <mxGraphModel dx="2060" dy="2154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fK5Zref6y-ofhdotIUHq-5" edge="1" parent="1" source="fK5Zref6y-ofhdotIUHq-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fK5Zref6y-ofhdotIUHq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;horizontal=1;" value="&lt;font style=&quot;font-size: 26px;&quot;&gt;start&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="790.63" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-8" edge="1" parent="1" source="fK5Zref6y-ofhdotIUHq-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fK5Zref6y-ofhdotIUHq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;read the hand sgin&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="165" x="798.13" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-9" edge="1" parent="1" source="fK5Zref6y-ofhdotIUHq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="633.75" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-11" edge="1" parent="1" source="fK5Zref6y-ofhdotIUHq-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1113.75" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;is it the right hand?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="176.25" x="792.51" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Yes&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="50" x="693.75" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;No&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="1003.75" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-34" edge="1" parent="1" source="fK5Zref6y-ofhdotIUHq-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="fK5Zref6y-ofhdotIUHq-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="360" />
+              <mxPoint x="1270" y="80" />
+            </Array>
+            <mxPoint x="1230" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&amp;nbsp; ignore&amp;nbsp;&lt;/font&gt;&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="1053.75" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-18" edge="1" parent="1" source="fK5Zref6y-ofhdotIUHq-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fK5Zref6y-ofhdotIUHq-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;search the data the meaning of the hand&amp;nbsp;positions&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="568.75" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-19" edge="1" parent="1" source="fK5Zref6y-ofhdotIUHq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1063.75" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-20" edge="1" parent="1" source="fK5Zref6y-ofhdotIUHq-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fK5Zref6y-ofhdotIUHq-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="553.75" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-16" parent="1" style="rhombus;whiteSpace=wrap;html=1;align=center;" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 17px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;is the hand sign in the data?&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="300" x="653.75" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;No&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="961.25" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="583.75" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-27" edge="1" parent="1" source="fK5Zref6y-ofhdotIUHq-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="fK5Zref6y-ofhdotIUHq-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1340" y="640" />
+              <mxPoint x="1340" y="80" />
+            </Array>
+            <mxPoint x="1360" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;output (&quot;the hand sign is undefined&quot;)&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="983.75" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-31" edge="1" parent="1" source="fK5Zref6y-ofhdotIUHq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fK5Zref6y-ofhdotIUHq-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="568.75" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;output the meanning of&amp;nbsp; the hand sign&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="493.75" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-26" parent="1" style="ellipse;whiteSpace=wrap;html=1;horizontal=1;" value="&lt;span style=&quot;font-size: 26px;&quot;&gt;End&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="770" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-32" edge="1" parent="1" source="fK5Zref6y-ofhdotIUHq-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="fK5Zref6y-ofhdotIUHq-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="390" y="780" />
+              <mxPoint x="390" y="80" />
+            </Array>
+            <mxPoint x="490.47249999999985" y="784.8999999999996" as="sourcePoint" />
+            <mxPoint x="790.63" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-37" edge="1" parent="1" source="fK5Zref6y-ofhdotIUHq-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fK5Zref6y-ofhdotIUHq-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-35" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;end the program?&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="166.87" x="485.31" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;No&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="410" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="fK5Zref6y-ofhdotIUHq-38" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Yes&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="680" y="750" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
