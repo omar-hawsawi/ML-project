@@ -50,15 +50,41 @@ class SignLanguageTrainer:
                     yield np.stack(X_batch), np.array(y_batch)
 
     def build_model(self, input_shape=(30, 3)):
-        model = tf.keras.Sequential([
-            # Input is (Time Steps, 3 Coordinates)
-            tf.keras.layers.Input(shape=input_shape),
-            tf.keras.layers.LSTM(32, return_sequences=False),
-            tf.keras.layers.Dense(32, activation='relu'),
-            tf.keras.layers.Dropout(0.2),
-            tf.keras.layers.Dense(self.num_classes, activation='softmax')
-        ])
-        model.compile(optimizer='adam', 
-                      loss='sparse_categorical_crossentropy', 
+        inputs = tf.keras.Input(shape=input_shape)
+        
+        # LayerNormalization at the input
+        x = tf.keras.layers.LayerNormalization()(inputs)
+        
+        # Project input to 64 channels for residual connections
+        x = tf.keras.layers.Conv1D(64, kernel_size=1, padding='same')(x)
+        
+        # TCN with residual blocks using dilated Conv1D layers
+        dilations = [1, 2, 4, 8]
+        
+        for dilation in dilations:
+            # Main path with residual connection
+            residual = x
+            
+            conv = tf.keras.layers.Conv1D(64, kernel_size=3, padding='same', dilation_rate=dilation)(x)
+            conv = tf.keras.layers.BatchNormalization()(conv)
+            conv = tf.keras.layers.Activation('relu')(conv)
+            conv = tf.keras.layers.Dropout(0.4)(conv)
+            
+            # Add residual connection
+            x = tf.keras.layers.Add()([residual, conv])
+        
+        # Global Average Pooling
+        x = tf.keras.layers.GlobalAveragePooling1D()(x)
+        
+        # Dense layers with 128 units and dropout
+        x = tf.keras.layers.Dense(128, activation='relu')(x)
+        x = tf.keras.layers.Dropout(0.4)(x)
+        
+        # Output layer
+        outputs = tf.keras.layers.Dense(self.num_classes, activation='softmax')(x)
+        
+        model = tf.keras.Model(inputs=inputs, outputs=outputs)
+        model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=1e-3),
+                      loss='sparse_categorical_crossentropy',
                       metrics=['accuracy'])
         return model
